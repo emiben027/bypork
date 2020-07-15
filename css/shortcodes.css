@@ -1956,7 +1956,7 @@ body{ counter-reset: section; }
 .ttm-connect-form .ttm-btn.ttm-btn-size-md{padding: 18px 15px;}
 .ttm-connect-form input::placeholder,
 .ttm-connect-form select{
-    color: rgba(255,255,255,.45);
+    color: rgb(255, 255, 255);
 }
 /* ===============================================
     20.Tab
