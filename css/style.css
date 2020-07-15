@@ -99,17 +99,17 @@ p {
 	padding: 0;
 }
 ::-webkit-scrollbar {
-	-webkit-appearance: none;
-	width: 5px;
+	-webkit-appearance: animation;
+	width: 9px;
 }
 ::-webkit-scrollbar-track {
 	background: rgba(46,56,71,.5);
-	border-radius: 0;
+	border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb{
 	cursor: pointer;
-	border-radius: 0px;
-	background: rgba(29,37,71,1);
+	border-radius: 5px;
+	background: #f84b15ed;
 	-webkit-transition: color 0.2s ease;
 	-moz-transition: color 0.2s ease;
 	-o-transition: color 0.2s ease;

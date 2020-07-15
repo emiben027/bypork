@@ -637,7 +637,7 @@ body .page.sidebar-true .site-main{
 .accordion.style2 .toggle .toggle-title a.active:after,
 .testimonials-nav .slick-prev:hover:before,
 .testimonials-nav .slick-next:hover:before{
-  color: #99cc33;
+  color: #5ea0de;
 }
 
 /** Skin-bg-color **/
@@ -719,7 +719,7 @@ div.product ul.tabs li a:before,
 .ttm-header-style-02 .ttm-header-icons .ttm-header-search-link a:hover,
 .top-contact.ttm-highlight-left:after, 
 .top-contact.ttm-highlight-right:after{
-  background-color: #99cc33 ;
+  background-color: #5ea0de ;
 }
 
 /** Skin-border-color **/
@@ -763,7 +763,7 @@ textarea:focus,
 .featured-imagebox-blog.ttm-box-view-left-image .featured-content .category> a,
 .comment-list a.comment-reply-link:hover,
 .testimonil-slide .slick-dots li.slick-active button:before{ 
-    border-color: #99cc33;
+    border-color: #f84b15ed;
 }
 .ttm-search-overlay,
 .ttm-rounded-shadow-box, div.product ul.tabs li.active a:before,
@@ -773,7 +773,7 @@ textarea:focus,
 #site-header-menu #site-navigation .menu ul ul,
 .blog-icon,
 .featured-content hr {
-    border-top-color: #99cc33 !important; 
+    border-top-color: #5ea0de !important; 
 }
 .ttm-search-overlay .w-search-form-row:before,
 .tooltip-bottom:before,
@@ -1315,7 +1315,7 @@ div.product ul.tabs li a,
     position: relative;
     display: block;
     z-index: 1;
-    height: 117px;
+    height: 95px;
     line-height: 117px;
 }
 
