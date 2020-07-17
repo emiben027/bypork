@@ -197,45 +197,143 @@
                     <div class="row">
                         <div class="col-lg-12">
                             
-                            <form name="checkout" method="post" class="checkout row" action="#">
+                            <form name="checkout" method="post" class="checkout row" action="home-page.html" target="_blank">
                                 <div class="col-lg-6">
-                                    <h4>Sign Up</h4>
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>First Name<abbr>*</abbr></label>
-                                                <input type="text" name="fname" class="form-control border">
+                                                <input type="none" name="fname" class="form-control border" placeholder="" required="required" maxlength="20">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Last Name<abbr>*</abbr></label>
-                                                <input type="text" name="lname" class="form-control border">
+                                                <input type="text" name="lname" class="form-control border" required="required" maxlength="20">
                                             </div>
                                         </div>
-                                        <div class="col-sm-12">
+                                         <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label>Gender</label><abbr>*</abbr><br>
+                                                <input type="radio" name="gender" value="male" required="required">
+                                                <label for="male">Male</label>
+                                                <br>
+                                                <input type="radio" name="gender" value="female" required="required">
+                                                <label for="female">Female</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label>Date Of Birth<abbr>*</abbr></label>
+                                                <input type="date" name="birthday" class="form-control border" required="required" maxlength="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Email<abbr>*</abbr></label>
-                                                <input type="text" name="email" class="form-control border">
+                                                <input type="email" name="email" class="form-control border" placeholder="@email.com" required="required" maxlength="40">
                                             </div>
                                         </div>
-
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Phone<abbr>*</abbr></label>
-                                                <input type="text" name="phone" class="form-control border">
+                                                <input type="tel" name="phone" class="form-control border" placeholder="+234" required="required" maxlength="15">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label>Country<abbr>*</abbr></label>
+                                                <select type="text" name="country" class="form-control border" required="required">
+                                                    <option>Nigeria</option>
+                                                    <option>Angola</option>
+                                                    <option>Austrailia</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label>City<abbr>*</abbr></label>
+                                                <input type="text" name="city" class="form-control border" required="required" maxlength="20">
                                             </div>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="form-group">
-                                                <label>Occupation<abbr>*</abbr></label>
-                                                <input type="text" name="occupation" class="form-control border">
+                                                <label>Bank Details<abbr>*</abbr></label>
+                                                <input type="tel" name="bank" maxlength="15" class="form-control border" placeholder="account number" required="required">
+                                                <select type="text" name="country" class="form-control border" required="required">
+                                                    <option>First Bank</option>
+                                                    <option>Access/Diamond Bank</option>
+                                                    <option>UBA</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                         <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label>How Did You Hear About Us</label>
+                                                <select type="text" name="lname" class="form-control border">
+                                                    <option>Facebook</option>
+                                                    <option>Twitter</option>
+                                                    <option>Instagram</option>
+                                                    <option>Linkedin</option>
+                                                    <option>Whatsapp</option>
+                                                    <option>Friend</option>
+                                                    <option>Others</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-
+                                    <!-- ttm-cart-form -->
+                            <div>
+                                <h4><span>Summary</span></h4>
+                                <table class="shop_table shop_table_responsive">
+                                    <thead>
+                                        <tr>    
+                                            <th class="product-name">Plan</th>
+                                            <th class="product-mainprice">ROI</th>
+                                            <th class="product-amount">Amount</th>
+                                            <th class="pro">Interest</th>
+                                            <th class="product-subtotal">Due Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="cart_item">
+                                            
+                                            <td class="product-name" data-title="Plan">
+                                                <a href="invest.html">Bronze</a>
+                                            </td>
+                                            <td class="product-mainprice" data-title="ROI">
+                                                <span class="Price-amount">
+                                                    <span class="Price-currencySymbol">25</span>%
+                                                </span>
+                                            </td>
+                                            <td class="product-quantity" data-title="Amount">
+                                                <span class="Price-amount">
+                                                    <span class="Price-currencySymbol">NGN</span>100,000
+                                                </span>
+                                            </td>
+                                            <td class="product-subtotal" data-title="Interest">
+                                                <span class="Price-amount">
+                                                    <span class="Price-currencySymbol">NGN</span>25,000
+                                                </span>
+                                            </td>
+                                            <td class="product-mainprice" data-title="Due Date">
+                                                <span class="Price-amount">
+                                                    <span class="Price-currencySymbol">30th May</span> 2021
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        
+ 
+                                            <td colspan="6" class="actions">
+                                                <a href="invest.html" class="cart_button button ttm-btn ttm-btn-bgcolor-darkgrey">Change Plan</a>
+                                                <!-- <button type="submit" class="cart_button button ttm-btn ttm-btn-bgcolor-darkgrey" name="update_cart" value="Update cart" disabled="disabled"> proceed</button> -->
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                                 </div>
                                 <div class="col-lg-12">
                                     
@@ -245,12 +343,12 @@
                                             <ul class="payment_methods">
                                                 <li class="payment_method_ppec_paypal">
                                                     <div class="payment_box">
-                                                        <p class="mb-0">Please <a href="contact.html">contact us</a> if you require assistance or wish to make alternate arrangements.</p>
+                                                        <p class="mb-0"><a href="contact.html" class="">Contact us</a> if you require assistance or wish use other payment options.</p>
                                                     </div>
                                                 </li>
                                             </ul>
                                             <div class="checkout-form place-order clearfix">
-                                                <p class="payment_policy"> You will receive an email containing all... after payment. please read our <a href="byporkT&C.pdf" class="ttm-textcolor-skincolor">Privecy policy</a> </p>
+                                                <p class="payment_policy"> You will receive an email containing payment information, and documents. Please read our <a href="byporkT&C.pdf" class="ttm-textcolor-skincolor">Terms and Conditions</a> before proceeding.</p>
                                                 <button type="submit" class="button ttm-btn ttm-btn-size-sm ttm-btn-bgcolor-darkgrey pull-right" name="checkout_place_order" id="place_order" value="Place order" data-value="Place order">Proceed to payment</button>
                                             </div>
                                         </div>
