@@ -923,7 +923,7 @@ div.product ul.tabs li a,
 .ttm-bgcolor-skincolor .ttm-list.ttm-list-style-icon li,
 .banner-img-box .featured-content .featured-desc p,
 .ttm-textcolor-white .ttm-social-links-wrapper ul li a {
-    color: rgba(255,255,255,.85);
+    color: #fff;
 }
 
 .ttm-textcolor-white,
